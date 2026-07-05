@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Safety Must-Haves Every Woman Should Pack</title>
+  <style>
+    :root {
+      --paper: #fbfaf6;
+      --linen: #eee7dc;
+      --blush: #d7a99d;
+      --sage: #9aa18e;
+      --taupe: #8b7769;
+      --ink: #3b332c;
+      --muted: #746b61;
+      --line: #e1d7ca;
+      --white: #ffffff;
+      --soft: #f7f2eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .page {
+      width: min(100%, 980px);
+      margin: 0 auto;
+      padding: 22px 18px 56px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 24px;
+      padding: 14px 0 34px;
+    }
+
+    .hero-image {
+      background: var(--linen);
+      border: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .hero-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--taupe);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 9vw, 76px);
+      line-height: 0.98;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .disclosure-top {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    section {
+      padding: 30px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 32px;
+      line-height: 1.1;
+    }
+
+    .guide-copy {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .checklist li {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      min-height: 50px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 13px 14px;
+    }
+
+    .box {
+      width: 18px;
+      height: 18px;
+      border: 1.5px solid var(--sage);
+      flex: 0 0 auto;
+      background: var(--white);
+    }
+
+    .category-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .category-nav a {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      padding: 9px 12px;
+      color: var(--ink);
+      font-size: 14px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .product-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .product-meta {
+      color: var(--taupe);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .product-card h3 {
+      margin: 8px 0 8px;
+      font-size: 26px;
+      line-height: 1.16;
+    }
+
+    .product-card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+    }
+
+    .note {
+      background: var(--soft);
+      border-left: 4px solid var(--blush);
+      padding: 10px 12px;
+      color: var(--ink);
+      font-size: 14px;
+    }
+
+    .amazon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      margin-top: 14px;
+      padding: 10px 16px;
+      background: var(--ink);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .how-to {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .tip {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 16px;
+    }
+
+    .tip strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .related {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .related a {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    .disclosure {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (min-width: 760px) {
+      .page {
+        padding-inline: 28px;
+      }
+
+      .hero {
+        grid-template-columns: minmax(310px, 420px) 1fr;
+        align-items: center;
+      }
+
+      .checklist,
+      .products,
+      .how-to,
+      .related {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-image" aria-label="Travel Safety Must-Haves Pinterest checklist">
+        <img src="assets/hero.png" alt="Travel Safety Must-Haves Every Woman Should Pack Pinterest checklist">
+      </div>
+      <div>
+        <p class="eyebrow">Travel Safety Guide</p>
+        <h1>Travel Safety Must-Haves Every Woman Should Pack</h1>
+        <p class="subtitle">A calm, practical packing guide based on the exact items shown in the Pinterest checklist.</p>
+        <p class="disclosure-top">As an Amazon Associate I earn from qualifying purchases.</p>
+      </div>
+    </header>
+
+    <section id="guide">
+      <h2>Start With The Safety Basics</h2>
+      <p class="guide-copy">This page turns the visual checklist into a practical travel prep plan. The goal is not to pack more. It is to keep documents organized, make hotel rooms feel safer, and reduce the small travel stresses that tend to show up when you are moving through airports, stations, taxis, hotels, and busy streets.</p>
+    </section>
+
+    <section id="quick-checklist">
+      <h2>Quick Checklist</h2>
+      <ul class="checklist">
+        <li><span class="box"></span><span>RFID passport holder</span></li>
+        <li><span class="box"></span><span>Anti-theft crossbody bag</span></li>
+        <li><span class="box"></span><span>Personal safety alarm</span></li>
+        <li><span class="box"></span><span>Portable door lock</span></li>
+        <li><span class="box"></span><span>Luggage tracker</span></li>
+        <li><span class="box"></span><span>RFID travel wallet</span></li>
+        <li><span class="box"></span><span>AirTag holder</span></li>
+        <li><span class="box"></span><span>Compact first aid kit</span></li>
+        <li><span class="box"></span><span>Travel organizer</span></li>
+      </ul>
+    </section>
+
+    <section id="categories">
+      <h2>Browse By Use</h2>
+      <nav class="category-nav" aria-label="Product categories">
+        <a href="#documents">Documents</a>
+        <a href="#anti-theft">Anti-Theft</a>
+        <a href="#hotel-safety">Hotel Safety</a>
+        <a href="#tracking">Tracking</a>
+        <a href="#health">Health</a>
+        <a href="#organization">Organization</a>
+      </nav>
+    </section>
+
+    <section id="essentials">
+      <h2>Items From This Pinterest Checklist</h2>
+      <div class="products">
+        <article class="product-card" id="documents">
+          <div class="product-meta">Documents</div>
+          <h3>RFID Passport Holder</h3>
+          <p>Why it matters: A slim RFID passport holder keeps the most important document protected and easy to find before check-in, security, or hotel arrival.</p>
+          <div class="note">Amazon US product: Passport Holder Cover Wallet RFID Blocking Leather Card Case Travel Accessories for Women Men (Pink).</div>
+          <a class="amazon-button" href="https://amzn.to/4wuLDGM">View on Amazon</a>
+        </article>
+
+        <article class="product-card" id="anti-theft">
+          <div class="product-meta">Anti-Theft</div>
+          <h3>Anti-Theft Bag</h3>
+          <p>Why it matters: A travel anti-theft bag helps keep cards, passport, and phone closer to your body in crowded areas where a normal purse can feel too exposed.</p>
+          <div class="note">Amazon US product: Travelon Anti-Theft Classic Messenger Bag.</div>
+          <a class="amazon-button" href="https://amzn.to/4wvuM6K">View on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-meta">Personal Safety</div>
+          <h3>Safety Alarm</h3>
+          <p>Why it matters: A personal alarm is small enough to clip to a bag or keychain, but it gives you a simple attention-getting option when you feel unsafe.</p>
+          <div class="note">Amazon US product: She’s Birdie–The Original Personal Safety Alarm for Women by Women–Loud Siren, Strobe Light and Key Chain in a Variety of Colors (Metallic Rose).</div>
+          <a class="amazon-button" href="https://amzn.to/4wrTF2Z">View on Amazon</a>
+        </article>
+
+        <article class="product-card" id="hotel-safety">
+          <div class="product-meta">Hotel Safety</div>
+          <h3>Portable Door Lock</h3>
+          <p>Why it matters: A portable door lock adds a layer of privacy for hotel rooms, rentals, dorm rooms, and solo stays where you want extra peace of mind.</p>
+          <div class="note">Amazon US product: AceMining Portable Door Lock Home Security Door Lock Travel Lockdown Locks for Additional Safety and Privacy Perfect for Traveling Hotel Home Apartment College.</div>
+          <a class="amazon-button" href="https://amzn.to/3SZincw">View on Amazon</a>
+        </article>
+
+        <article class="product-card" id="tracking">
+          <div class="product-meta">Tracking</div>
+          <h3>Luggage Tracker</h3>
+          <p>Why it matters: A luggage tracker helps you check whether a suitcase, backpack, or personal item is moving with you, especially during flights and transfers.</p>
+          <div class="note">Amazon US product: UGREEN FineTrack Air Tracker Tags (iOS Only) 4 Pack, 2-Year Replaceable Battery Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart Tag for Keys, Luggage - [Apple Find My Certified].</div>
+          <a class="amazon-button" href="https://amzn.to/4eWqkXh">View on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-meta">Documents</div>
+          <h3>Travel Wallet</h3>
+          <p>Why it matters: A travel wallet keeps boarding passes, cards, cash, and passport together so you are not digging through multiple pockets at stressful moments.</p>
+          <div class="note">Amazon US product: Stouchi Airtag Passport Holder – Track Your Passport, RFID Blocking Travel Wallet for Women, Slim All-in-One Organizer for Secure International Travel (Sky Blue).</div>
+          <a class="amazon-button" href="https://amzn.to/3SMWw86">View on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-meta">Tracking</div>
+          <h3>AirTag</h3>
+          <p>Why it matters: The pin shows an AirTag-style keychain. A holder makes the tracker easier to attach to keys, bags, or luggage without it floating loose.</p>
+          <div class="note">Amazon US product: Genuine Leather Airtag Holder Suitable for Apple Airtag Keychain Leather, Small Air Tag Holder with Key Rings, Protective Airtag Case Cover Accessories (Pink V1.0).</div>
+          <a class="amazon-button" href="https://amzn.to/3ThtSw0">View on Amazon</a>
+        </article>
+
+        <article class="product-card" id="health">
+          <div class="product-meta">Health</div>
+          <h3>First Aid Kit</h3>
+          <p>Why it matters: A compact first aid kit helps with small cuts, blisters, scrapes, or travel-day discomfort before it becomes a bigger interruption.</p>
+          <div class="note">Amazon US product: Thrive Mini First Aid Kit - Compact Travel Essentials Pack - Waterproof Camping Essentials Set - Portable Car First Aid Kit & Hiking Supplies Pouch - 66-Piece Set, Red Shell Case.</div>
+          <a class="amazon-button" href="https://amzn.to/4veuAHN">View on Amazon</a>
+        </article>
+
+        <article class="product-card" id="organization">
+          <div class="product-meta">Organization</div>
+          <h3>Travel Organizer</h3>
+          <p>Why it matters: A toiletry organizer keeps small items in one place, protects bags from spills, and makes hotel bathrooms easier to use without unpacking everything.</p>
+          <div class="note">Amazon US product: BAGSMART Large Toiletry Bag Travel Bag with Hanging Hook, Water-resistant Makeup Cosmetic Bag Travel Organizer for Accessories, Shampoo, Full Sized Container, Toiletries.</div>
+          <a class="amazon-button" href="https://amzn.to/44dHlr3">View on Amazon</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-to-choose">
+      <h2>How To Choose</h2>
+      <div class="how-to">
+        <div class="tip"><strong>Prioritize what you touch often.</strong><span>Passport holder, travel wallet, and anti-theft bag should be easy to open without spilling everything.</span></div>
+        <div class="tip"><strong>Keep hotel safety compact.</strong><span>The best safety items are small enough to actually pack every time.</span></div>
+        <div class="tip"><strong>Separate tracker and holder decisions.</strong><span>A tracker helps locate items. A holder makes the tracker easier to attach and harder to lose.</span></div>
+        <div class="tip"><strong>Use soft colors when possible.</strong><span>Blush, beige, taupe, and sage fit the Pinterest image while still being practical.</span></div>
+      </div>
+    </section>
+
+    <section id="related-guides">
+      <h2>Related Travel Guides</h2>
+      <div class="related">
+        <a href="../long-road-trip-essentials-continuation-mvp/index.html">Long Road Trip Essentials</a>
+        <a href="#">Carry-On Travel Essentials</a>
+        <a href="#">Travel Toiletries</a>
+        <a href="#">Solo Travel Safety Checklist</a>
+      </div>
+    </section>
+
+    <section id="disclosure">
+      <h2>Disclosure</h2>
+      <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+    </section>
+  </main>
+</body>
+</html>
