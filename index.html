@@ -3,420 +3,378 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Travel Safety Must-Haves Every Woman Should Pack</title>
+  <title>Things To Bring On A Flight | Travel Guide</title>
+  <meta name="description" content="A calm, visual carry-on checklist for flight days, based on the posted Pinterest pin.">
   <style>
     :root {
-      --paper: #fbfaf6;
-      --linen: #eee7dc;
-      --blush: #d7a99d;
-      --sage: #9aa18e;
-      --taupe: #8b7769;
-      --ink: #3b332c;
-      --muted: #746b61;
-      --line: #e1d7ca;
-      --white: #ffffff;
-      --soft: #f7f2eb;
+      --ink: #231f20;
+      --muted: #6f6761;
+      --paper: #fffaf7;
+      --shell: #f7eee8;
+      --rose: #d99a96;
+      --sage: #7d9277;
+      --sky: #7b9bb0;
+      --line: #e5d7cf;
+      --card: #ffffff;
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--ink);
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
+      background: var(--paper);
+      line-height: 1.55;
     }
-
-    a {
-      color: inherit;
-    }
-
-    .page {
-      width: min(100%, 980px);
-      margin: 0 auto;
-      padding: 22px 18px 56px;
-    }
-
+    img { max-width: 100%; display: block; }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
     .hero {
+      min-height: 92svh;
       display: grid;
-      gap: 24px;
-      padding: 14px 0 34px;
-    }
-
-    .hero-image {
-      background: var(--linen);
-      border: 1px solid var(--line);
-      overflow: hidden;
-    }
-
-    .hero-image img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .eyebrow {
-      margin: 0 0 10px;
-      color: var(--taupe);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    h1,
-    h2,
-    h3 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-weight: 500;
-      letter-spacing: 0;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(38px, 9vw, 76px);
-      line-height: 0.98;
-    }
-
-    .subtitle {
-      max-width: 680px;
-      margin: 14px 0 0;
-      color: var(--muted);
-      font-size: 18px;
-    }
-
-    .disclosure-top {
-      margin: 18px 0 0;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    section {
-      padding: 30px 0;
-      border-top: 1px solid var(--line);
-    }
-
-    h2 {
-      margin: 0 0 14px;
-      font-size: 32px;
-      line-height: 1.1;
-    }
-
-    .guide-copy {
-      max-width: 760px;
-      margin: 0;
-      color: var(--muted);
-      font-size: 17px;
-    }
-
-    .checklist {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      margin: 18px 0 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .checklist li {
-      display: flex;
-      gap: 10px;
+      grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+      gap: clamp(22px, 5vw, 56px);
       align-items: center;
-      min-height: 50px;
-      background: var(--white);
-      border: 1px solid var(--line);
-      padding: 13px 14px;
+      padding: clamp(18px, 4vw, 42px) 0 28px;
+      border-bottom: 1px solid var(--line);
     }
-
-    .box {
-      width: 18px;
-      height: 18px;
-      border: 1.5px solid var(--sage);
-      flex: 0 0 auto;
-      background: var(--white);
-    }
-
-    .category-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .category-nav a {
-      min-height: 42px;
+    .hero-copy { padding: 10px 0; }
+    .eyebrow {
       display: inline-flex;
       align-items: center;
-      text-decoration: none;
-      background: var(--soft);
-      border: 1px solid var(--line);
-      padding: 9px 12px;
-      color: var(--ink);
-      font-size: 14px;
-    }
-
-    .products {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-      margin-top: 18px;
-    }
-
-    .product-card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      padding: 18px;
-    }
-
-    .product-meta {
-      color: var(--taupe);
-      font-size: 12px;
+      gap: 8px;
+      color: var(--sage);
+      font-size: .78rem;
       font-weight: 700;
-      letter-spacing: 0.06em;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
-
-    .product-card h3 {
-      margin: 8px 0 8px;
-      font-size: 26px;
-      line-height: 1.16;
+    .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--rose); }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.7rem, 7vw, 6rem);
+      line-height: .95;
+      letter-spacing: 0;
+      margin: 18px 0;
+      max-width: 780px;
     }
-
-    .product-card p {
-      margin: 0 0 12px;
+    .lede {
+      max-width: 620px;
+      font-size: clamp(1.02rem, 1.9vw, 1.28rem);
       color: var(--muted);
     }
-
-    .note {
-      background: var(--soft);
-      border-left: 4px solid var(--blush);
-      padding: 10px 12px;
-      color: var(--ink);
-      font-size: 14px;
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
     }
-
-    .amazon-button {
+    .button {
+      min-height: 46px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 44px;
-      margin-top: 14px;
-      padding: 10px 16px;
-      background: var(--ink);
-      color: var(--white);
+      gap: 8px;
+      border: 1px solid var(--ink);
+      border-radius: 6px;
+      padding: 0 18px;
+      font-weight: 750;
       text-decoration: none;
-      font-weight: 700;
+      background: var(--ink);
+      color: #fff;
     }
-
-    .how-to {
+    .button.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+    .pin-frame {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 22px 60px rgba(70, 48, 40, .12);
+    }
+    .pin-frame img { border-radius: 4px; }
+    .notice {
+      margin: 24px 0 0;
+      padding: 14px 16px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+    section { padding: clamp(34px, 6vw, 74px) 0; border-bottom: 1px solid var(--line); }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      line-height: 1;
+      margin: 0;
+      letter-spacing: 0;
+    }
+    .section-note { color: var(--muted); max-width: 520px; margin: 0; }
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .check {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 12px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-height: 48px;
+      font-size: .95rem;
+    }
+    .box {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+      border: 1.5px solid var(--rose);
+      border-radius: 4px;
+      background: #fff6f3;
+    }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .tab {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: #fff;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
       display: grid;
       gap: 12px;
-      margin-top: 16px;
+      min-height: 310px;
     }
-
-    .tip {
-      background: var(--white);
-      border: 1px solid var(--line);
-      padding: 16px;
-    }
-
-    .tip strong {
-      display: block;
-      margin-bottom: 4px;
-    }
-
-    .related {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .related a {
-      background: var(--white);
-      border: 1px solid var(--line);
-      padding: 14px;
-      text-decoration: none;
-    }
-
-    .disclosure {
+    .label {
+      width: fit-content;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--shell);
       color: var(--muted);
-      font-size: 13px;
+      font-size: .78rem;
+      font-weight: 700;
     }
-
-    @media (min-width: 760px) {
-      .page {
-        padding-inline: 28px;
-      }
-
-      .hero {
-        grid-template-columns: minmax(310px, 420px) 1fr;
-        align-items: center;
-      }
-
-      .checklist,
-      .products,
-      .how-to,
-      .related {
-        grid-template-columns: 1fr 1fr;
-      }
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+    .product {
+      color: var(--muted);
+      font-size: .94rem;
+    }
+    .meta {
+      display: grid;
+      gap: 8px;
+      font-size: .92rem;
+      color: var(--muted);
+    }
+    .meta strong { color: var(--ink); }
+    .card .button {
+      margin-top: auto;
+      width: 100%;
+      min-height: 42px;
+      font-size: .92rem;
+    }
+    .guide {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .guide-item {
+      padding: 18px;
+      border-left: 4px solid var(--rose);
+      background: #fff;
+    }
+    .guide-item:nth-child(2) { border-color: var(--sage); }
+    .guide-item:nth-child(3) { border-color: var(--sky); }
+    .guide-item h3 { margin-bottom: 8px; }
+    .faq {
+      display: grid;
+      gap: 10px;
+      max-width: 860px;
+    }
+    details {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    summary { cursor: pointer; font-weight: 750; }
+    details p { color: var(--muted); margin-bottom: 0; }
+    footer {
+      padding: 28px 0 42px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .pin-frame { max-width: 560px; margin: 0 auto; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .checklist { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .guide { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .section-note { margin-top: 10px; }
+    }
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 22px, 1120px); }
+      .hero-actions { display: grid; }
+      .button { width: 100%; }
+      .grid, .checklist { grid-template-columns: 1fr; }
+      .card { min-height: auto; }
     }
   </style>
 </head>
 <body>
-  <main class="page">
-    <header class="hero">
-      <div class="hero-image" aria-label="Travel Safety Must-Haves Pinterest checklist">
-        <img src="assets/hero.png" alt="Travel Safety Must-Haves Every Woman Should Pack Pinterest checklist">
+  <main>
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> Carry-on flight guide</div>
+        <h1>Things To Bring On A Flight</h1>
+        <p class="lede">A soft, organized checklist for long airport days: documents, comfort, small hygiene items, device charging, and the little extras that keep your seat pocket from becoming chaos.</p>
+        <div class="hero-actions">
+          <a class="button" href="#essentials">Browse Essentials</a>
+          <a class="button secondary" href="#checklist">Open Checklist</a>
+        </div>
+        <p class="notice">As an Amazon Associate I earn from qualifying purchases. Links are standard Amazon product links for human review; replace them with official SiteStripe affiliate links after approval.</p>
       </div>
-      <div>
-        <p class="eyebrow">Travel Safety Guide</p>
-        <h1>Travel Safety Must-Haves Every Woman Should Pack</h1>
-        <p class="subtitle">A calm, practical packing guide based on the exact items shown in the Pinterest checklist.</p>
-        <p class="disclosure-top">As an Amazon Associate I earn from qualifying purchases.</p>
+      <figure class="pin-frame">
+        <img src="../Posted%20Images/posted-pin.png" alt="Pinterest pin showing things to bring on a flight">
+      </figure>
+    </div>
+
+    <section id="checklist">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Quick Checklist</h2>
+          <p class="section-note">Pack the must-reach items in your personal bag, not the overhead bin.</p>
+        </div>
+        <div class="checklist">
+          <div class="check"><span class="box"></span> Passport holder</div>
+          <div class="check"><span class="box"></span> Travel wallet</div>
+          <div class="check"><span class="box"></span> Portable charger</div>
+          <div class="check"><span class="box"></span> Phone charger</div>
+          <div class="check"><span class="box"></span> Headphones</div>
+          <div class="check"><span class="box"></span> Neck pillow</div>
+          <div class="check"><span class="box"></span> Water bottle</div>
+          <div class="check"><span class="box"></span> Tote bag</div>
+          <div class="check"><span class="box"></span> Crossbody bag</div>
+          <div class="check"><span class="box"></span> Packing cubes</div>
+          <div class="check"><span class="box"></span> Organizer pouch</div>
+          <div class="check"><span class="box"></span> Wipes</div>
+          <div class="check"><span class="box"></span> Lip balm</div>
+          <div class="check"><span class="box"></span> Hair brush</div>
+          <div class="check"><span class="box"></span> Hair ties</div>
+          <div class="check"><span class="box"></span> Journal or book</div>
+          <div class="check"><span class="box"></span> Face mist</div>
+          <div class="check"><span class="box"></span> Medicine case</div>
+          <div class="check"><span class="box"></span> Bandages</div>
+          <div class="check"><span class="box"></span> Snacks and gum</div>
+          <div class="check"><span class="box"></span> Sleep mask</div>
+        </div>
       </div>
-    </header>
-
-    <section id="guide">
-      <h2>Start With The Safety Basics</h2>
-      <p class="guide-copy">This page turns the visual checklist into a practical travel prep plan. The goal is not to pack more. It is to keep documents organized, make hotel rooms feel safer, and reduce the small travel stresses that tend to show up when you are moving through airports, stations, taxis, hotels, and busy streets.</p>
-    </section>
-
-    <section id="quick-checklist">
-      <h2>Quick Checklist</h2>
-      <ul class="checklist">
-        <li><span class="box"></span><span>RFID passport holder</span></li>
-        <li><span class="box"></span><span>Anti-theft crossbody bag</span></li>
-        <li><span class="box"></span><span>Personal safety alarm</span></li>
-        <li><span class="box"></span><span>Portable door lock</span></li>
-        <li><span class="box"></span><span>Luggage tracker</span></li>
-        <li><span class="box"></span><span>RFID travel wallet</span></li>
-        <li><span class="box"></span><span>AirTag holder</span></li>
-        <li><span class="box"></span><span>Compact first aid kit</span></li>
-        <li><span class="box"></span><span>Travel organizer</span></li>
-      </ul>
-    </section>
-
-    <section id="categories">
-      <h2>Browse By Use</h2>
-      <nav class="category-nav" aria-label="Product categories">
-        <a href="#documents">Documents</a>
-        <a href="#anti-theft">Anti-Theft</a>
-        <a href="#hotel-safety">Hotel Safety</a>
-        <a href="#tracking">Tracking</a>
-        <a href="#health">Health</a>
-        <a href="#organization">Organization</a>
-      </nav>
     </section>
 
     <section id="essentials">
-      <h2>Items From This Pinterest Checklist</h2>
-      <div class="products">
-        <article class="product-card" id="documents">
-          <div class="product-meta">Documents</div>
-          <h3>RFID Passport Holder</h3>
-          <p>Why it matters: A slim RFID passport holder keeps the most important document protected and easy to find before check-in, security, or hotel arrival.</p>
-          <div class="note">Amazon US product: Passport Holder Cover Wallet RFID Blocking Leather Card Case Travel Accessories for Women Men (Pink).</div>
-          <a class="amazon-button" href="https://amzn.to/4wuLDGM">View on Amazon</a>
-        </article>
-
-        <article class="product-card" id="anti-theft">
-          <div class="product-meta">Anti-Theft</div>
-          <h3>Anti-Theft Bag</h3>
-          <p>Why it matters: A travel anti-theft bag helps keep cards, passport, and phone closer to your body in crowded areas where a normal purse can feel too exposed.</p>
-          <div class="note">Amazon US product: Travelon Anti-Theft Classic Messenger Bag.</div>
-          <a class="amazon-button" href="https://amzn.to/4wvuM6K">View on Amazon</a>
-        </article>
-
-        <article class="product-card">
-          <div class="product-meta">Personal Safety</div>
-          <h3>Safety Alarm</h3>
-          <p>Why it matters: A personal alarm is small enough to clip to a bag or keychain, but it gives you a simple attention-getting option when you feel unsafe.</p>
-          <div class="note">Amazon US product: She’s Birdie–The Original Personal Safety Alarm for Women by Women–Loud Siren, Strobe Light and Key Chain in a Variety of Colors (Metallic Rose).</div>
-          <a class="amazon-button" href="https://amzn.to/4wrTF2Z">View on Amazon</a>
-        </article>
-
-        <article class="product-card" id="hotel-safety">
-          <div class="product-meta">Hotel Safety</div>
-          <h3>Portable Door Lock</h3>
-          <p>Why it matters: A portable door lock adds a layer of privacy for hotel rooms, rentals, dorm rooms, and solo stays where you want extra peace of mind.</p>
-          <div class="note">Amazon US product: AceMining Portable Door Lock Home Security Door Lock Travel Lockdown Locks for Additional Safety and Privacy Perfect for Traveling Hotel Home Apartment College.</div>
-          <a class="amazon-button" href="https://amzn.to/3SZincw">View on Amazon</a>
-        </article>
-
-        <article class="product-card" id="tracking">
-          <div class="product-meta">Tracking</div>
-          <h3>Luggage Tracker</h3>
-          <p>Why it matters: A luggage tracker helps you check whether a suitcase, backpack, or personal item is moving with you, especially during flights and transfers.</p>
-          <div class="note">Amazon US product: UGREEN FineTrack Air Tracker Tags (iOS Only) 4 Pack, 2-Year Replaceable Battery Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart Tag for Keys, Luggage - [Apple Find My Certified].</div>
-          <a class="amazon-button" href="https://amzn.to/4eWqkXh">View on Amazon</a>
-        </article>
-
-        <article class="product-card">
-          <div class="product-meta">Documents</div>
-          <h3>Travel Wallet</h3>
-          <p>Why it matters: A travel wallet keeps boarding passes, cards, cash, and passport together so you are not digging through multiple pockets at stressful moments.</p>
-          <div class="note">Amazon US product: Stouchi Airtag Passport Holder – Track Your Passport, RFID Blocking Travel Wallet for Women, Slim All-in-One Organizer for Secure International Travel (Sky Blue).</div>
-          <a class="amazon-button" href="https://amzn.to/3SMWw86">View on Amazon</a>
-        </article>
-
-        <article class="product-card">
-          <div class="product-meta">Tracking</div>
-          <h3>AirTag</h3>
-          <p>Why it matters: The pin shows an AirTag-style keychain. A holder makes the tracker easier to attach to keys, bags, or luggage without it floating loose.</p>
-          <div class="note">Amazon US product: Genuine Leather Airtag Holder Suitable for Apple Airtag Keychain Leather, Small Air Tag Holder with Key Rings, Protective Airtag Case Cover Accessories (Pink V1.0).</div>
-          <a class="amazon-button" href="https://amzn.to/3ThtSw0">View on Amazon</a>
-        </article>
-
-        <article class="product-card" id="health">
-          <div class="product-meta">Health</div>
-          <h3>First Aid Kit</h3>
-          <p>Why it matters: A compact first aid kit helps with small cuts, blisters, scrapes, or travel-day discomfort before it becomes a bigger interruption.</p>
-          <div class="note">Amazon US product: Thrive Mini First Aid Kit - Compact Travel Essentials Pack - Waterproof Camping Essentials Set - Portable Car First Aid Kit & Hiking Supplies Pouch - 66-Piece Set, Red Shell Case.</div>
-          <a class="amazon-button" href="https://amzn.to/4veuAHN">View on Amazon</a>
-        </article>
-
-        <article class="product-card" id="organization">
-          <div class="product-meta">Organization</div>
-          <h3>Travel Organizer</h3>
-          <p>Why it matters: A toiletry organizer keeps small items in one place, protects bags from spills, and makes hotel bathrooms easier to use without unpacking everything.</p>
-          <div class="note">Amazon US product: BAGSMART Large Toiletry Bag Travel Bag with Hanging Hook, Water-resistant Makeup Cosmetic Bag Travel Organizer for Accessories, Shampoo, Full Sized Container, Toiletries.</div>
-          <a class="amazon-button" href="https://amzn.to/44dHlr3">View on Amazon</a>
-        </article>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Recommended Essentials</h2>
+          <p class="section-note">One curated Amazon US product page per visible item with official SiteStripe links added for review.</p>
+        </div>
+        <div class="tabs" aria-label="Categories">
+          <span class="tab">Documents</span>
+          <span class="tab">Comfort</span>
+          <span class="tab">Organization</span>
+          <span class="tab">Beauty</span>
+          <span class="tab">Health</span>
+          <span class="tab">Snacks</span>
+        </div>
+        <div class="grid">
+          <article class="card"><span class="label">Documents</span><h3>Passport Holder</h3><p class="product">Apadi Passport Holder with Airtag Documents Organizer</p><div class="meta"><span><strong>Why it matters:</strong> Keeps passport, boarding pass, cards, and cash together during security and boarding.</span><span><strong>Choose this if:</strong> You want one slim travel document hub.</span></div><a class="button" href="https://amzn.to/4yaTT0g">View on Amazon</a></article>
+          <article class="card"><span class="label">Documents</span><h3>Travel Wallet</h3><p class="product">Travelambo RFID Wallet Women Large Size Bifold</p><div class="meta"><span><strong>Why it matters:</strong> A slim wallet reduces pocket clutter when your passport is stored separately.</span><span><strong>Choose this if:</strong> You prefer a compact card-and-cash wallet for airport days.</span></div><a class="button" href="https://amzn.to/3TizLJm">View on Amazon</a></article>
+          <article class="card"><span class="label">Tech</span><h3>Portable Charger</h3><p class="product">Anker Nano 3-in-1 Portable iPhone Charger, 10,000mAh - Pink</p><div class="meta"><span><strong>Why it matters:</strong> Built-in cable and wall plug reduce the number of loose chargers in your bag.</span><span><strong>Choose this if:</strong> You need a compact battery for phone-heavy travel days.</span></div><a class="button" href="https://amzn.to/3T3ax1w">View on Amazon</a></article>
+          <article class="card"><span class="label">Tech</span><h3>Phone Charger</h3><p class="product">Apple 20W USB-C Power Adapter</p><div class="meta"><span><strong>Why it matters:</strong> A small white wall charger fits the image item better than an international adapter.</span><span><strong>Choose this if:</strong> You want a simple phone charger block for airport and hotel outlets.</span></div><a class="button" href="https://amzn.to/4voZygE">View on Amazon</a></article>
+          <article class="card"><span class="label">Comfort</span><h3>Headphones</h3><p class="product">Sony WH-1000XM5 Wireless Noise Canceling Headphones</p><div class="meta"><span><strong>Why it matters:</strong> Noise canceling makes cabin sound, announcements, and seatmate noise easier to manage.</span><span><strong>Choose this if:</strong> Quiet matters more than the smallest possible earbud case.</span></div><a class="button" href="https://amzn.to/3R0IMWS">View on Amazon</a></article>
+          <article class="card"><span class="label">Comfort</span><h3>Neck Pillow</h3><p class="product">trtl Soft Neck Support Pillow</p><div class="meta"><span><strong>Why it matters:</strong> More structured than a bulky U-pillow and easier to pack for economy seats.</span><span><strong>Choose this if:</strong> You want upright sleep support on long flights.</span></div><a class="button" href="https://amzn.to/4eMGyna">View on Amazon</a></article>
+          <article class="card"><span class="label">Hydration</span><h3>Water Bottle</h3><p class="product">Exllena Small 8 oz Water Bottle</p><div class="meta"><span><strong>Why it matters:</strong> Small capacity is easier to tuck into a personal bag and refill after TSA.</span><span><strong>Choose this if:</strong> You want a compact bottle rather than a large tumbler.</span></div><a class="button" href="https://amzn.to/4eMGEew">View on Amazon</a></article>
+          <article class="card"><span class="label">Bags</span><h3>Travel Tote Bag</h3><p class="product">BAGSMART Puffy Travel Tote Bag - Light Beige</p><div class="meta"><span><strong>Why it matters:</strong> Lightweight, zip-top, and roomy enough for flight layers, tech, and small essentials.</span><span><strong>Choose this if:</strong> You need a personal item that looks soft and organized.</span></div><a class="button" href="https://amzn.to/3T0qCoI">View on Amazon</a></article>
+          <article class="card"><span class="label">Bags</span><h3>Crossbody Bag</h3><p class="product">BAGSMART Crossbody Quilted Bag with Adjustable Strap</p><div class="meta"><span><strong>Why it matters:</strong> Keeps passport, phone, lip balm, and gum accessible during boarding.</span><span><strong>Choose this if:</strong> You like hands-free airport movement.</span></div><a class="button" href="https://amzn.to/4p4EpGR">View on Amazon</a></article>
+          <article class="card"><span class="label">Organization</span><h3>Packing Cubes</h3><p class="product">Gonex Compression Packing Cubes</p><div class="meta"><span><strong>Why it matters:</strong> Separates outfits and compresses soft items so your carry-on stays searchable.</span><span><strong>Choose this if:</strong> You want order without overpacking.</span></div><a class="button" href="https://amzn.to/4wpg150">View on Amazon</a></article>
+          <article class="card"><span class="label">Organization</span><h3>Travel Organizer Pouch</h3><p class="product">BAGSMART Travel Makeup Bag / Toiletry Organizer</p><div class="meta"><span><strong>Why it matters:</strong> Keeps liquids, skincare, and small beauty items from scattering inside your tote.</span><span><strong>Choose this if:</strong> You want a soft pouch that matches the pin aesthetic.</span></div><a class="button" href="https://amzn.to/4p426iD">View on Amazon</a></article>
+          <article class="card"><span class="label">Hygiene</span><h3>Hand Sanitizer</h3><p class="product">Purell Advanced Hand Sanitizer Refreshing Aloe 2 oz</p><div class="meta"><span><strong>Why it matters:</strong> Easy to use before snacks, after security bins, and after boarding.</span><span><strong>Choose this if:</strong> You want a familiar travel sanitizer item.</span></div><a class="button" href="https://amzn.to/4bt8E4y">View on Amazon</a></article>
+          <article class="card"><span class="label">Hygiene</span><h3>Wet Wipes</h3><p class="product">Lysol Disinfecting Wipes To-Go Pack</p><div class="meta"><span><strong>Why it matters:</strong> Useful for tray tables, armrests, screens, and quick seat-area resets.</span><span><strong>Choose this if:</strong> You like a dedicated wipe pack for flights.</span></div><a class="button" href="https://amzn.to/4eMwavz">View on Amazon</a></article>
+          <article class="card"><span class="label">Beauty</span><h3>Lip Balm</h3><p class="product">Aquaphor Lip Repair Stick, Pack of 2</p><div class="meta"><span><strong>Why it matters:</strong> Cabin air is drying, and a stick format is less messy than a jar.</span><span><strong>Choose this if:</strong> You want a simple, unscented-feeling lip option.</span></div><a class="button" href="https://amzn.to/4y58ABT">View on Amazon</a></article>
+          <article class="card"><span class="label">Beauty</span><h3>Mini Hair Brush</h3><p class="product">Wet Brush Original Detangling Hair Brush</p><div class="meta"><span><strong>Why it matters:</strong> Helps refresh hair after seat naps, humidity, and long transit days.</span><span><strong>Choose this if:</strong> You want a gentle brush that works wet or dry.</span></div><a class="button" href="https://amzn.to/4gi8yQF">View on Amazon</a></article>
+          <article class="card"><span class="label">Beauty</span><h3>Hair Ties</h3><p class="product">Scunci by Conair No Damage Hair Elastics</p><div class="meta"><span><strong>Why it matters:</strong> Small backups matter when hair gets in the way during sleep or meals.</span><span><strong>Choose this if:</strong> You want basic, low-risk hair elastics.</span></div><a class="button" href="https://amzn.to/4gREziI">View on Amazon</a></article>
+          <article class="card"><span class="label">Quiet Time</span><h3>Travel Journal</h3><p class="product">Moleskine Classic Notebook, Soft Cover, Large</p><div class="meta"><span><strong>Why it matters:</strong> A small notebook gives you a screen-free place for plans, lists, and memories.</span><span><strong>Choose this if:</strong> You like writing during delays or layovers.</span></div><a class="button" href="https://amzn.to/4vXMorR">View on Amazon</a></article>
+          <article class="card"><span class="label">Quiet Time</span><h3>Book</h3><p class="product">The Sun and Her Flowers by Rupi Kaur</p><div class="meta"><span><strong>Why it matters:</strong> A slim poetry book is easy to dip into between boarding, meals, and naps.</span><span><strong>Choose this if:</strong> You want the same soft visual world as the pin.</span></div><a class="button" href="https://amzn.to/4y7vhW3">View on Amazon</a></article>
+          <article class="card"><span class="label">Beauty</span><h3>Face Mist</h3><p class="product">Mario Badescu Facial Spray with Aloe, Herbs and Rosewater</p><div class="meta"><span><strong>Why it matters:</strong> A quick refresh for dry cabin air and post-flight makeup touch-ups.</span><span><strong>Choose this if:</strong> You want a tiny liquid that feels calming midflight.</span></div><a class="button" href="https://amzn.to/4go1qCh">View on Amazon</a></article>
+          <article class="card"><span class="label">Health</span><h3>Medicine Case</h3><p class="product">EZY DOSE Weekly 7-Day Daily Pill Case</p><div class="meta"><span><strong>Why it matters:</strong> Keeps daily meds and vitamins separated without loose bottles in your tote.</span><span><strong>Choose this if:</strong> You want a compact travel pill case.</span></div><a class="button" href="https://amzn.to/3QHAbbA">View on Amazon</a></article>
+          <article class="card"><span class="label">Health</span><h3>Emergency Bandages</h3><p class="product">Welly Expanded Adventure First Aid Kit</p><div class="meta"><span><strong>Why it matters:</strong> Covers minor cuts, blisters, and small travel mishaps better than loose bandages.</span><span><strong>Choose this if:</strong> You want a compact first-aid backup for trips.</span></div><a class="button" href="https://amzn.to/4pa0aVU">View on Amazon</a></article>
+          <article class="card"><span class="label">Snacks</span><h3>Snacks</h3><p class="product">Simple Mills Almond Flour Crackers Variety Pack</p><div class="meta"><span><strong>Why it matters:</strong> Wrapped snacks are easier to manage than loose snacks in a tote.</span><span><strong>Choose this if:</strong> You want a low-mess snack option.</span></div><a class="button" href="https://amzn.to/4vkDtQ9">View on Amazon</a></article>
+          <article class="card"><span class="label">Snacks</span><h3>Gum</h3><p class="product">Mentos Pure Fresh Sugar-Free Chewing Gum Bottle</p><div class="meta"><span><strong>Why it matters:</strong> Handy for takeoff, landing, and quick breath refreshes.</span><span><strong>Choose this if:</strong> You want a compact gum container for your seat pocket.</span></div><a class="button" href="https://amzn.to/3TjvTaZ">View on Amazon</a></article>
+          <article class="card"><span class="label">Comfort</span><h3>Sleep Mask</h3><p class="product">MZOO Sleep Eye Mask</p><div class="meta"><span><strong>Why it matters:</strong> Blocks cabin light without needing to wait for the whole plane to dim.</span><span><strong>Choose this if:</strong> You want a shaped mask for naps.</span></div><a class="button" href="https://amzn.to/4vhBImW">View on Amazon</a></article>
+        </div>
       </div>
     </section>
 
-    <section id="how-to-choose">
-      <h2>How To Choose</h2>
-      <div class="how-to">
-        <div class="tip"><strong>Prioritize what you touch often.</strong><span>Passport holder, travel wallet, and anti-theft bag should be easy to open without spilling everything.</span></div>
-        <div class="tip"><strong>Keep hotel safety compact.</strong><span>The best safety items are small enough to actually pack every time.</span></div>
-        <div class="tip"><strong>Separate tracker and holder decisions.</strong><span>A tracker helps locate items. A holder makes the tracker easier to attach and harder to lose.</span></div>
-        <div class="tip"><strong>Use soft colors when possible.</strong><span>Blush, beige, taupe, and sage fit the Pinterest image while still being practical.</span></div>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How To Pack It</h2>
+          <p class="section-note">The goal is a calm personal bag: documents first, comfort in reach, hygiene in one pouch.</p>
+        </div>
+        <div class="guide">
+          <div class="guide-item"><h3>Top pocket</h3><p>Passport holder, travel wallet, phone charger, lip balm, gum, and sanitizer should be reachable without opening the whole bag.</p></div>
+          <div class="guide-item"><h3>Main compartment</h3><p>Use the tote for headphones, neck pillow, water bottle, book, journal, organizer pouch, and a light snack pack.</p></div>
+          <div class="guide-item"><h3>Carry-on</h3><p>Keep packing cubes, extra medicine, bandages, and backups in a tidy layer so you do not have to unpack at the gate.</p></div>
+        </div>
       </div>
     </section>
 
-    <section id="related-guides">
-      <h2>Related Travel Guides</h2>
-      <div class="related">
-        <a href="../long-road-trip-essentials-continuation-mvp/index.html">Long Road Trip Essentials</a>
-        <a href="#">Carry-On Travel Essentials</a>
-        <a href="#">Travel Toiletries</a>
-        <a href="#">Solo Travel Safety Checklist</a>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p class="section-note">Short notes for human review before affiliate link finalization.</p>
+        </div>
+        <div class="faq">
+          <details><summary>Are these affiliate links finalized?</summary><p>No. These are standard Amazon product page links. After human approval, replace them with official Amazon Associates SiteStripe links.</p></details>
+          <details><summary>Why are there no prices or ratings?</summary><p>Prices, ratings, and availability change. This draft avoids live claims unless a compliant source is added later.</p></details>
+          <details><summary>Should every item be promoted?</summary><p>The top monetization items are the Anker charger, Sony headphones, BAGSMART tote, trtl pillow, packing cubes, organizer pouch, and travel wallet. Small items still make the page useful as a checklist.</p></details>
+        </div>
       </div>
-    </section>
-
-    <section id="disclosure">
-      <h2>Disclosure</h2>
-      <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
     </section>
   </main>
+  <footer>
+    <div class="wrap">
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+      <p>Human review required before publishing. Confirm product pages, availability, and SiteStripe affiliate links before replacing draft links.</p>
+    </div>
+  </footer>
 </body>
 </html>
